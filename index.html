@@ -1,4 +1,4 @@
-<canvas style=background:red height=300 id=a><script>c=a.getContext("2d");c.f=c.fillRect;m=Math;r=m.random;t=V=10;s=[[t,t]];x=H=1;y=0;setInterval(()=>{X=s[0][0]+x;Y=s[0][1]+y;(X<0||Y<0||X>29||Y>29||s.map(_=>_.join()).includes(X+","+Y))&&location.reload();s.unshift([X,Y]);H-X||V-Y?s.pop():(H=~~(r()*30),V=~~(r()*30));c.clearRect(0,0,300,300);s.map(r=>c.f(r[0]*t,r[1]*t,t,t)||r);c.f(H*t,V*t,t,t);},99);onkeydown=e=>{A=(e.which+1)*m.PI/2;x=~~m.cos(A);y=~~m.sin(A)}</script>
+<canvas style=background:red height=300 id=a><script>c=a.getContext("2d");c.f=c.fillRect;m=Math;r=m.random;t=V=10;s=[S=[t,t]];x=H=1;y=0;setInterval(()=>{X=S[0]+x;Y=S[1]+y;(X<0||Y<0||X>29||Y>29||s.map(_=>_.join()).includes(X+","+Y))&&location.reload();s.unshift(S=[X,Y]);H-X||V-Y?s.pop():(H=~~(r()*30),V=~~(r()*30));c.clearRect(0,0,300,300);s.map(r=>c.f(r[0]*t,r[1]*t,t,t)||r);c.f(H*t,V*t,t,t);},99);onkeydown=e=>{A=(e.which+1)*m.PI/2;x=~~m.cos(A);y=~~m.sin(A)}</script>
 
 <!---->
 
