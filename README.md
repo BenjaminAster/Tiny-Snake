@@ -7,3 +7,4 @@ Live demo:
 - On benjaminaster[]().github.io: [benjaminaster.github.io/Tiny-Snake](https://benjaminaster.github.io/Tiny-Snake/)
 - On benjaminaster[]().com: [benjaminaster.com/tiny-snake](https://benjaminaster.com/tiny-snake/)
 - On raw[]().githack.com: [benjaminaster.com/github/?/Tiny-Snake/](https://benjaminaster.com/github/?/Tiny-Snake/)
+
