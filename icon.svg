@@ -1,0 +1,44 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		:root {
+			color-scheme: dark light;
+			--fill: white;
+			--red: red;
+		}
+
+		@media (prefers-color-scheme: light) {
+			:root {
+				--fill: black;
+				--red: crimson;
+			}
+		}
+
+		.apple {
+			fill: var(--red);
+		}
+
+		.snake {
+			fill: var(--fill);
+		}
+	</style>
+
+	<!-- apple -->
+	<rect class="apple" x="0" y="0" width="120" height="120" />
+
+	<!-- snake -->
+	<path class="snake" d="
+		M 180 0
+		h 300
+		v 300
+		h -360
+		v 60
+		h 360
+		v 120
+		h -480
+		v -300
+		h 360
+		v -60
+		h -180
+		Z
+	" />
+</svg>
